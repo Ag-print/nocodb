@@ -474,8 +474,6 @@ export default {
     await this.$store.dispatch('users/ActGetUserDetails');
   },
   async mounted() {
-    setTimeout(() => (this.showCommunity = true), 2000);
-
     await this.projectsLoad();
   },
   methods: {
