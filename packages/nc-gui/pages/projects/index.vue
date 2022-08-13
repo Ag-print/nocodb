@@ -353,7 +353,6 @@
 <script>
 import dlgLabelSubmitCancel from '../../components/utils/DlgLabelSubmitCancel.vue';
 import ShareIcons from '../../components/ShareIcons';
-import SponsorMini from '~/components/SponsorMini';
 import colors from '~/mixins/colors';
 import TemplatesModal from '~/components/templates/TemplatesModal';
 
@@ -361,7 +360,6 @@ export default {
   components: {
     TemplatesModal,
     ShareIcons,
-    SponsorMini,
     dlgLabelSubmitCancel,
     // howItWorks,
   },

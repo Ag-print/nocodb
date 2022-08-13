@@ -635,7 +635,6 @@ import dlgLabelSubmitCancel from './utils/DlgLabelSubmitCancel';
 import { copyTextToClipboard } from '../helpers/xutils';
 import DlgTableCreate from '~/components/utils/DlgTableCreate';
 import DlgViewCreate from '~/components/utils/DlgViewCreate';
-import SponsorMini from '~/components/SponsorMini';
 import { validateTableName } from '~/helpers';
 import QuickImport from '~/components/import/QuickImport';
 
@@ -653,7 +652,6 @@ export default {
     GithubStarBtn,
     draggable,
     QuickImport,
-    SponsorMini,
     DlgViewCreate,
     DlgTableCreate,
     textDlgSubmitCancel,

@@ -386,14 +386,13 @@ import CreateViewDialog from '~/components/project/spreadsheet/dialog/CreateView
 import Extras from '~/components/project/spreadsheet/components/Extras';
 import viewIcons from '~/helpers/viewIcons';
 import { copyTextToClipboard } from '~/helpers/xutils';
-import SponsorMini from '~/components/SponsorMini';
 import CodeSnippet from '~/components/project/spreadsheet/components/CodeSnippet';
 import WebhookSlider from '~/components/project/tableTabs/webhook/WebhookSlider';
 import FlipCard from '~/components/project/spreadsheet/components/FlipCard';
 
 export default {
   name: 'SpreadsheetNavDrawer',
-  components: { WebhookSlider, CodeSnippet, SponsorMini, Extras, CreateViewDialog, draggable, FlipCard },
+  components: { WebhookSlider, CodeSnippet, Extras, CreateViewDialog, draggable, FlipCard },
   props: {
     extraViewParams: Object,
     showAdvanceOptions: Boolean,
@@ -440,7 +439,6 @@ export default {
       ghostClass: 'ghost',
     },
     time: Date.now(),
-    sponsorMiniVisible: true,
     enableDummyFeat: false,
     searchQueryVal: '',
     showShareLinkPassword: false,

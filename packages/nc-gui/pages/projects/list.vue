@@ -112,11 +112,10 @@
 import colors from '~/mixins/colors';
 import CreateNewProjectBtn from '~/components/projectList/CreateNewProjectBtn';
 import Extras from '~/components/project/spreadsheet/components/Extras';
-import SponsorMini from '~/components/SponsorMini';
 
 export default {
   name: 'List',
-  components: { SponsorMini, Extras, CreateNewProjectBtn },
+  components: { Extras, CreateNewProjectBtn },
   mixins: [colors],
   data: () => ({
     projectList: null,
