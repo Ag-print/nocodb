@@ -21,17 +21,6 @@
             </v-list-item-subtitle>
           </v-list-item>
         </v-list-item-group>
-        <v-divider />
-        <v-list-item>
-          <a
-            href="https://docs.nocodb.com/engineering/translation/#how-to-contribute--for-community-members"
-            target="_blank"
-            class="caption"
-          >
-            <!--Help translate-->
-            {{ $t('activity.translate') }}
-          </a>
-        </v-list-item>
       </v-list>
     </v-menu>
   </div>
@@ -42,41 +31,13 @@ export default {
   name: 'Language',
   data: () => ({
     labels: {
-      ar: 'العربية',
-      bn: 'বাংলা',
-      da: 'Dansk',
-      de: 'Deutsch',
       en: 'English',
-      es: 'Español',
-      fa: 'فارسی',
-      fi: 'Suomalainen',
-      fr: 'Français',
-      hi: 'हिन्दी',
-      hr: 'Hrvatski',
-      id: 'Bahasa Indonesia',
-      it_IT: 'Italiano',
-      iw: 'עִברִית',
       ja: '日本語',
-      ko: '한국인',
-      lv: 'Latviešu',
-      nl: 'Nederlandse',
-      no: 'Norsk',
-      pt_BR: 'Português (Brasil)',
-      ru: 'Pусский',
-      sl: 'Slovenščina',
-      sv: 'Svenska',
-      th: 'ไทย',
-      tr: 'Turkish',
-      uk: 'Українська',
-      vi: 'Tiếng Việt',
-      zh_CN: '大陆简体',
-      zh_HK: '香港繁體',
-      zh_TW: '臺灣正體'
     }
   }),
   computed: {
     languages() {
-      return ((this.$i18n && this.$i18n.availableLocales) || ['en']).sort()
+      return ((this.$i18n && this.$i18n.availableLocales) || ['ja']).sort()
     },
     language: {
       get() {

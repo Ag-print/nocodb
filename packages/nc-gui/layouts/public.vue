@@ -8,10 +8,10 @@
               <v-img :src="require('~/assets/img/icons/512x512-trans.png')" max-height="30px" max-width="30px" />
             </v-btn>
           </template>
-          NocoDB Home
+          NinjaKoalaSan Home
         </v-tooltip>
         <template v-if="!isDashboard">
-          <span class="title"> Noco Cloud</span>
+          <span class="title"> NiKo Cloud</span>
         </template>
       </v-toolbar-title>
     </v-app-bar>

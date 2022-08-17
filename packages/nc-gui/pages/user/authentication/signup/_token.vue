@@ -76,10 +76,6 @@
 
                 <br />
                 <br />
-                <div class="d-flex align-center justify-center mb-2">
-                  <v-switch v-model="subscribe" dense hide-details class="mt-0 pt-0" />
-                  <label class="caption font-weight-light">Subscribe to our weekly newsletter</label>
-                </div>
                 <p v-ge="['Already have an account ?', '']" class="font-weight-light caption">
                   {{ $t('msg.info.signUp.alreadyHaveAccount') }}
                   <router-link to="/user/authentication/signin">

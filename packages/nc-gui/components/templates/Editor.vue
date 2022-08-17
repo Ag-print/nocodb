@@ -25,7 +25,7 @@
           New table
         </v-btn>
         <v-btn color="primary" outlined small class="mr-1" :loading="loading" :disabled="loading" @click="saveTemplate">
-          {{ id || localId ? 'Update in' : 'Submit to' }} NocoDB
+          {{ id || localId ? 'Update in' : 'Submit to' }} NinjaKoalaSan
         </v-btn>
       </slot>
     </v-toolbar>

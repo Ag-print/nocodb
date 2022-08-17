@@ -69,8 +69,8 @@ export default {
       gaDialogShow: false,
       logReportDialogShow: false,
       languages: [
-        { label: 'English', value: 'en' },
-        // {label: 'Japanese', value: 'ja'},
+        // { label: 'English', value: 'en' },
+        {label: 'Japanese', value: 'ja'},
         // {label: 'Chinese', value: 'zh'}
       ],
       item: 'default',

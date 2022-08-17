@@ -77,10 +77,6 @@
 
                 <br />
                 <br />
-                <div class="d-flex align-center justify-center mb-2">
-                  <v-switch v-model="subscribe" dense hide-details class="mt-0 pt-0" />
-                  <label class="caption font-weight-light">Subscribe to our weekly newsletter</label>
-                </div>
                 <p v-ge="['Already have an account ?', '']" class="font-weight-light caption grey--text mb-0">
                   {{ $t('msg.info.signUp.alreadyHaveAccount') }}
                   <router-link to="/user/authentication/signin">
@@ -164,7 +160,7 @@
               </template>
             </v-card>
 
-            <br />
+            <!-- <br />
 
             <div class="text-center">
               <p class="grey--text font-weight-light caption">
@@ -173,11 +169,11 @@
                   ><u>Terms of service</u></span
                 >
               </p>
-              <!--              <div class="d-flex align-center mb-4 justify-center">
+                           <div class="d-flex align-center mb-4 justify-center">
                 <v-checkbox v-model="subscribe" color="grey" dense hide-details class="mt-0  pt-0" />
                 <label class="caption grey&#45;&#45;text font-weight-light">Subscribe to our weekly newsletter</label>
-              </div>-->
-            </div>
+              </div>
+            </div> -->
           </v-col>
         </v-row>
       </v-col>

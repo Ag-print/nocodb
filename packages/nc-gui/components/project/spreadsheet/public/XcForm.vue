@@ -31,7 +31,7 @@
                   Add cover image
                 </v-chip>-->
                   <v-img src="./icon.png" width="50" class="mx-4" />
-                  <span class="display-1 font-weight-bold">NocoDB</span>
+                  <span class="display-1 font-weight-bold">NinjaKoalaSan</span>
                 </div>
               </div>
             </div>

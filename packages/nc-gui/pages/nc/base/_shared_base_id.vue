@@ -30,7 +30,7 @@
       <v-spacer />
       <a href="https://github.com/nocodb/nocodb" target="_blank" class="d-inline-flex align-center caption">
         <img src="favicon-32.png" height="15" class="mr-2" />
-        <span>Built with </span> &nbsp; <span class=""><span class="font-weight-bold"> NocoDB</span> </span></a
+        <span>Built with </span> &nbsp; <span class=""><span class="font-weight-bold"> NinjaKoalaSan</span> </span></a
       >
       <span v-if="embed" class="caption pointer ml-4" @click="showLargerVersion"
         ><v-icon small>mdi-arrow-expand</v-icon> Expand</span

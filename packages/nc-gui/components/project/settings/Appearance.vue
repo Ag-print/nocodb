@@ -161,8 +161,8 @@ export default {
       rightClickCount: 0,
       tab: null,
       languages: [
-        { label: 'English', value: 'en' },
-        // {label: 'Japanese', value: 'ja'},
+        // { label: 'English', value: 'en' },
+        {label: 'Japanese', value: 'ja'},
         // {label: 'Chinese', value: 'zh'}
       ],
       item: 'default',

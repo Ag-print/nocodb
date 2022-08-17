@@ -21,7 +21,7 @@ export default {
   */
   head: {
     titleTemplate: '',
-    title: 'NocoDB',
+    title: 'NinjaKoalaSan',
     meta: [
       { charset: 'utf-8' },
       {

@@ -4,7 +4,7 @@
       <v-card class="pa-10">
         <v-icon class="float-right" color="error" @click="dialogShow = false"> mdi-close-box-outline </v-icon>
         <p class="text-center" />
-        <p class="display-1 text-center">NocoDB: Settings</p>
+        <p class="display-1 text-center">NinjaKoalaSan: Settings</p>
 
         <v-tabs v-model="tab" color="pink">
           <v-tabs-slider />
@@ -194,8 +194,8 @@ export default {
       gaDialogShow: false,
       logReportDialogShow: false,
       languages: [
-        { label: 'English', value: 'en' },
-        // {label: 'Japanese', value: 'ja'},
+        // { label: 'English', value: 'en' },
+        {label: 'Japanese', value: 'ja'},
         // {label: 'Chinese', value: 'zh'}
       ],
       item: 'default',

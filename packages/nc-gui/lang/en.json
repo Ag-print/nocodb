@@ -167,8 +167,8 @@
     "sqlMigrations": "SQL Migrations",
     "dbCredentials": "Database Credentials",
     "advancedParameters": "SSL & Advanced parameters",
-    "headCreateProject": "Create Project | NocoDB",
-    "headLogin": "Log In | NocoDB",
+    "headCreateProject": "Create Project | NinjaKoalaSan",
+    "headLogin": "Log In | NinjaKoalaSan",
     "resetPassword": "Reset your password",
     "teamAndSettings": "Team & Settings",
     "apiDocs": "API Docs",
@@ -223,16 +223,6 @@
       "tableName": "Inflection - Table name",
       "columnName": "Inflection - Column name"
     },
-    "community": {
-      "starUs1": "Star",
-      "starUs2": "us on Github",
-      "bookDemo": "Book a Free DEMO",
-      "getAnswered": "Get your questions answered",
-      "joinDiscord": "Join Discord",
-      "joinCommunity": "Join NocoDB Community",
-      "joinReddit": "Join /r/NocoDB",
-      "followNocodb": "Follow NocoDB"
-    },
     "docReference": "Document Reference",
     "selectUserRole": "Select User Role",
     "childTable": "Child table",
@@ -262,7 +252,6 @@
       "releaseNote": "Release notes",
       "howTo": "How to upgrade ?"
     },
-    "translate": "Help translate",
     "account": {
       "authToken": "Copy Auth Token",
       "swagger": "Swagger APIs Doc",
@@ -445,7 +434,7 @@
       "staticRoleInfo": "System defined roles can't be edited",
       "exportZip": "Export project meta to zip file and download.",
       "importZip": "Import project meta zip file and restart.",
-      "importText": "Import NocoDB Project by uploading metadata zip file",
+      "importText": "Import NinjaKoalaSan Project by uploading metadata zip file",
       "metaNoChange": "No change identified",
       "sqlMigration": "Schema migrations will be created automatically. Create a table and refresh this page.",
       "dbConnectionStatus": "Environment validated",
@@ -454,11 +443,7 @@
         "no_new": "No new notifications",
         "clear": "Clear"
       },
-      "sponsor": {
-        "header": "You can help us!",
-        "message": "We are a tiny team working full time to make NocoDB Open-source. We believe a tool like NocoDB should be available freely to every problem solver on Internet."
-      },
-      "loginMsg": "Log In To NocoDB",
+      "loginMsg": "Log In To NinjaKoalaSan",
       "passwordRecovery": {
         "message_1": "Please provide the email address you used when you signed up.",
         "message_2": "We will send you an email with a link to reset your password.",

@@ -122,7 +122,7 @@ export default {
     activePage: null,
     navDrawerOptions: [
       {
-        title: 'My NocoDB',
+        title: 'My NinjaKoalaSan',
         icon: 'mdi-folder-outline',
       },
       {
