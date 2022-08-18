@@ -639,7 +639,6 @@ import { validateTableName } from '~/helpers';
 import QuickImport from '~/components/import/QuickImport';
 
 import draggable from 'vuedraggable';
-import GithubStarBtn from '~/components/GithubStarBtn';
 import SettingsModal from '~/components/settings/SettingsModal';
 import Language from '~/components/utils/Language';
 import Extras from '~/components/project/spreadsheet/components/Extras';
@@ -649,7 +648,6 @@ export default {
     Extras,
     Language,
     SettingsModal,
-    GithubStarBtn,
     draggable,
     QuickImport,
     DlgViewCreate,

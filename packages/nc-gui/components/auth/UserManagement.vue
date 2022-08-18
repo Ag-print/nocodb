@@ -389,7 +389,6 @@
 </template>
 
 <script>
-import FeedbackForm from '~/components/FeedbackForm';
 import SetListCheckboxCell from '~/components/project/spreadsheet/components/editableCell/SetListCheckboxCell';
 import { enumColor } from '@/components/project/spreadsheet/helpers/colors';
 import DlgLabelSubmitCancel from '~/components/utils/DlgLabelSubmitCancel';
@@ -402,7 +401,6 @@ export default {
   components: {
     XBtn,
     ShareBase,
-    FeedbackForm,
     DlgLabelSubmitCancel,
     SetListCheckboxCell,
   },
