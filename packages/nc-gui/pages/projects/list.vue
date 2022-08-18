@@ -111,11 +111,10 @@
 <script>
 import colors from '~/mixins/colors';
 import CreateNewProjectBtn from '~/components/projectList/CreateNewProjectBtn';
-import Extras from '~/components/project/spreadsheet/components/Extras';
 
 export default {
   name: 'List',
-  components: { Extras, CreateNewProjectBtn },
+  components: { CreateNewProjectBtn },
   mixins: [colors],
   data: () => ({
     projectList: null,

@@ -352,14 +352,12 @@
 
 <script>
 import dlgLabelSubmitCancel from '../../components/utils/DlgLabelSubmitCancel.vue';
-import ShareIcons from '../../components/ShareIcons';
 import colors from '~/mixins/colors';
 import TemplatesModal from '~/components/templates/TemplatesModal';
 
 export default {
   components: {
     TemplatesModal,
-    ShareIcons,
     dlgLabelSubmitCancel,
     // howItWorks,
   },

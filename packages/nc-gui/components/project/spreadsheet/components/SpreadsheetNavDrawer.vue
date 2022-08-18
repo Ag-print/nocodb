@@ -242,42 +242,6 @@
           </v-btn>
           <webhook-slider v-model="webhookSliderModal" :meta="meta" />
         </div>
-
-        <div
-          v-if="!isSharedBase && time - $store.state.settings.miniSponsorCard > 15 * 60 * 1000"
-          class="py-2 sponsor-wrapper"
-        >
-          <v-icon small class="close-icon" @click="hideMiniSponsorCard"> mdi-close-circle-outline </v-icon>
-          <v-divider class="mb-2" />
-          <flip-card width="100%" height="100px" :on-time="30 * 1000" :on-hover="false">
-            <template #front>
-              <extras class="pl-1 mt-1" />
-              <v-btn
-                v-t="['e:hiring']"
-                color="primary"
-                outlined
-                class="caption d-100 mt-4"
-                href="https://angel.co/company/nocodb"
-                target="_blank"
-              >
-                🚀 We are Hiring! 🚀
-              </v-btn>
-            </template>
-            <template #back>
-              <span class="caption text-left body-1 textColor--text text--lighten-1">{{ supportCost }}</span>
-              <v-btn
-                color="primary"
-                class="caption d-100 my-2"
-                outlined
-                href="https://github.com/sponsors/nocodb"
-                target="_blank"
-              >
-                <v-icon small color="red" class="mr-2"> mdi-cards-heart </v-icon>
-                {{ $t('activity.sponsorUs') }}
-              </v-btn>
-            </template>
-          </flip-card>
-        </div>
       </div>
     </v-container>
 
@@ -383,7 +347,6 @@
 import draggable from 'vuedraggable';
 import { ViewTypes } from 'nocodb-sdk';
 import CreateViewDialog from '~/components/project/spreadsheet/dialog/CreateViewDialog';
-import Extras from '~/components/project/spreadsheet/components/Extras';
 import viewIcons from '~/helpers/viewIcons';
 import { copyTextToClipboard } from '~/helpers/xutils';
 import CodeSnippet from '~/components/project/spreadsheet/components/CodeSnippet';
@@ -392,7 +355,7 @@ import FlipCard from '~/components/project/spreadsheet/components/FlipCard';
 
 export default {
   name: 'SpreadsheetNavDrawer',
-  components: { WebhookSlider, CodeSnippet, Extras, CreateViewDialog, draggable, FlipCard },
+  components: { WebhookSlider, CodeSnippet, CreateViewDialog, draggable, FlipCard },
   props: {
     extraViewParams: Object,
     showAdvanceOptions: Boolean,

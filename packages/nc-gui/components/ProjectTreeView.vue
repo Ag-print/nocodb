@@ -641,11 +641,9 @@ import QuickImport from '~/components/import/QuickImport';
 import draggable from 'vuedraggable';
 import SettingsModal from '~/components/settings/SettingsModal';
 import Language from '~/components/utils/Language';
-import Extras from '~/components/project/spreadsheet/components/Extras';
 
 export default {
   components: {
-    Extras,
     Language,
     SettingsModal,
     draggable,

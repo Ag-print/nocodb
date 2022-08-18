@@ -5,17 +5,6 @@
         <webhook-editor v-if="editOrAdd" ref="editor" :meta="meta" @backToList="editOrAdd = false" />
         <webhook-list v-else :meta="meta" @edit="editHook" @add="editOrAdd = true" />
       </v-card>
-      <v-spacer />
-      <v-btn
-        v-t="['e:hiring']"
-        color="primary"
-        outlined
-        class="caption my-2 mx-auto"
-        href="https://angel.co/company/nocodb"
-        target="_blank"
-      >
-        🚀 We are Hiring! 🚀
-      </v-btn>
     </div>
   </nc-slider>
 </template>
